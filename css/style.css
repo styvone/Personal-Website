@@ -90,3 +90,15 @@ p {
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
     transform: scale(1.1);
 }
+
+/* adjust site if screen too small */
+@media (max-width: 700px) {
+  #portrait {
+    display: none !important;
+  }
+
+  #title, #blurb, #links {
+  	width: 100%;
+  	right: 0;
+  }
+}
