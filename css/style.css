@@ -1,0 +1,92 @@
+body {
+	background-color: black;
+}
+
+#portrait {
+	position: absolute;
+	left: 5vw;
+	top: 19vh;
+	height: 50vh;
+	width: 26vw;
+}
+
+#title {
+	position: absolute;
+	right: 5vw;
+	top: 12vh;
+	width: 60vw;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	font-family: 'Bitter', serif;
+	font-size: 8vh;
+	font-weight: normal;
+}
+
+#blurb {
+	width: 60vw;
+	height: 40vh;
+	position: absolute;
+	right: 5vw;
+	top: 30vh;
+	text-align: center;
+}
+
+p {
+	color: white;
+	font-family: 'Assistant', sans-serif;
+	font-size: 5vh;
+}
+
+.link {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	transition: background-color 1s ease;
+}
+
+#pdl:hover {
+	background-color: #bf74bb;
+}
+
+#cl:hover {
+	background-color: #ff6d7d;
+}
+
+#upe:hover {
+	background-color: #03b1ff;
+}
+
+#links {
+	position: absolute;
+	width: 60vw;
+	height: 15vh;
+	bottom: 0;
+	right: 5vw;
+	text-align: center;
+}
+
+.link_icon {
+	width: 5vw;
+	height: 10vh;
+	text-decoration: none;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    transform: scale(1.1);
+}
