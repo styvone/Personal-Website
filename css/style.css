@@ -6,15 +6,15 @@ body {
 	position: absolute;
 	left: 5vw;
 	top: 19vh;
-	height: 50vh;
-	width: 26vw;
+	height: 60vh;
+	width: 31vw;
 }
 
 #title {
 	position: absolute;
 	right: 5vw;
 	top: 12vh;
-	width: 60vw;
+	width: 55vw;
 	text-align: center;
 }
 
@@ -26,7 +26,7 @@ h1 {
 }
 
 #blurb {
-	width: 60vw;
+	width: 55vw;
 	height: 40vh;
 	position: absolute;
 	right: 5vw;
@@ -61,7 +61,7 @@ p {
 
 #links {
 	position: absolute;
-	width: 60vw;
+	width: 55vw;
 	height: 15vh;
 	bottom: 0;
 	right: 5vw;
