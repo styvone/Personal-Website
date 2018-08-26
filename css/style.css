@@ -41,21 +41,35 @@ p {
 }
 
 .link {
-	color: white;
 	font-weight: bold;
 	text-decoration: none;
-	transition: background-color 1s ease;
+	transition: background-color 1s ease, color 1s ease;
+}
+
+#pdl {
+	color: #bf74bb;
 }
 
 #pdl:hover {
+	color: white;
 	background-color: #bf74bb;
 }
 
+#cl {
+	color: #ff6d7d;
+}
+
 #cl:hover {
+	color: white;
 	background-color: #ff6d7d;
 }
 
+#upe {
+	color: #03b1ff;
+}
+
 #upe:hover {
+	color: white;
 	background-color: #03b1ff;
 }
 
