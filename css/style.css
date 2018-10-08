@@ -1,118 +1,88 @@
 body {
-	background-color: black;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
-#portrait {
-	position: absolute;
-	left: 5vw;
-	top: 19vh;
-	height: 60vh;
-	width: 31vw;
+.header {
+  padding-bottom: 22vh;
 }
 
-#title {
-	position: absolute;
-	right: 5vw;
-	top: 12vh;
-	width: 55vw;
-	text-align: center;
+.container {
+  background-color: blanchedalmond;
+  max-width: 70vw;
 }
 
-h1 {
-	color: white;
-	font-family: 'Bitter', serif;
-	font-size: 8vh;
-	font-weight: normal;
+.greeting {
+  font-size: 10vw;
 }
 
-#blurb {
-	width: 55vw;
-	height: 40vh;
-	position: absolute;
-	right: 5vw;
-	top: 30vh;
-	text-align: center;
+.nav li {
+  font-family: Arial, sans-serif;
+  font-display: bold;
 }
 
-p {
-	color: white;
-	font-family: 'Assistant', sans-serif;
-	font-size: 5vh;
+a {
+  transition: background-color 1s ease, color 1s ease;
+  color: black;
 }
 
-.link {
-	font-weight: bold;
-	text-decoration: none;
-	transition: background-color 1s ease, color 1s ease;
+a:hover {
+  color: white;
+  background-color: black !important;
 }
 
-#pdl {
-	color: #bf74bb;
-}
-
-#pdl:hover {
-	color: white;
-	background-color: #bf74bb;
+.blurb {
+  font-size: 5.2vmin;
 }
 
 #cl {
-	color: #ff6d7d;
+  color: #ff6d7d;
 }
 
 #cl:hover {
-	color: white;
-	background-color: #ff6d7d;
+  color: white;
+  text-decoration: none;
+}
+
+#pdl {
+  color: #bf74bb;
+}
+
+#pdl:hover {
+  color: white;
+  text-decoration: none;
 }
 
 #upe {
-	color: #03b1ff;
+  color: #03b1ff;
 }
 
 #upe:hover {
-	color: white;
-	background-color: #03b1ff;
+  color: white;
+  text-decoration: none;
 }
 
-#links {
-	position: absolute;
-	width: 55vw;
-	height: 15vh;
-	bottom: 0;
-	right: 5vw;
-	text-align: center;
+#portrait {
+  height: auto;
+  width: 100%;
+  margin-bottom: 5vh;
 }
 
-.link_icon {
-	width: 5vw;
-	height: 10vh;
-	text-decoration: none;
-	margin-left: 1vw;
-	margin-right: 1vw;
+#text_div {
+  display: none;
 }
 
-/* Grow */
-.hvr-grow {
-    display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-    transform: scale(1.1);
-}
-
-/* adjust site if screen too small */
-@media (max-width: 700px) {
-  #portrait {
+@media (max-width: 1024px) {
+  #portrait,
+  #picture_div {
     display: none !important;
   }
 
-  #title, #blurb, #links {
-  	width: 100%;
-  	right: 0;
+  #text_div {
+    display: block !important;
   }
+}
+
+li {
+  font-size: 3vmin;
 }
