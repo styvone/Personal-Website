@@ -3,7 +3,8 @@ body {
   padding-bottom: 2vh;
 }
 
-.header {
+.header,
+.about_header {
   padding-bottom: 22vh;
 }
 
@@ -29,6 +30,7 @@ a {
 a:hover {
   color: white;
   background-color: black !important;
+  text-decoration: none;
 }
 
 .blurb {
@@ -41,7 +43,7 @@ a:hover {
 
 #cl:hover {
   color: white;
-  text-decoration: none;
+  background-color: blanchedalmond !important;
 }
 
 #pdl {
@@ -50,7 +52,7 @@ a:hover {
 
 #pdl:hover {
   color: white;
-  text-decoration: none;
+  background-color: blanchedalmond !important;
 }
 
 #upe {
@@ -59,7 +61,7 @@ a:hover {
 
 #upe:hover {
   color: white;
-  text-decoration: none;
+  background-color: blanchedalmond !important;
 }
 
 #portrait {
@@ -81,8 +83,25 @@ a:hover {
   #text_div {
     display: block !important;
   }
+
+  .about_header {
+    padding-bottom: 7vh;
+  }
 }
 
 li {
   font-size: 3vmin;
+}
+
+#work_links {
+  list-style: none;
+}
+
+.work {
+  font-size: 4vmin;
+}
+
+#work_link_div {
+  margin-bottom: 5vh;
+  text-align: left;
 }
