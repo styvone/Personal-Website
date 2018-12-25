@@ -1,44 +1,130 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>steven la</title>
-    <link rel="shortcut icon" type="image/x-icon" href="imgs/black_circle.png" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Crimson+Text|Martel"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="imgs/black_circle.png"
+    />
+  </head>
 
-    <!-- bootstrap css cdn -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-</head>
-
-<body>
-
-    <div class="container">
-        <div class="header">
-            <nav>
-                <ul class="nav pull-right">
-                    <li><a href="work.html">work</a></li>
-                </ul>
-                <ul class="nav pull-right">
-                    <li><a href="about.html">about</a></li>
-                </ul>
-            </nav>
-        </div>
-
-        <h1 class="greeting">hey.</h1>
-        <h1 class="greeting">i'm steven.</h1>
-
+  <body>
+    <div id="landing_blurb">
+      <div><span>Steven La</span></div>
+      <div><span>Software Engineer</span></div>
+      <div><span>Los Angeles, CA</span></div>
     </div>
 
-    <!-- jQuery and bootstrap -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-</body>
+    <div id="push_sticky">
+      <div id="arrow"><img src="imgs/arrow.png" /></div>
+    </div>
 
+    <div id="sticky_header"><img src="imgs/yuen.png" /></div>
+
+    <div id="about_section">
+      <div id="flex_1">
+        <img src="imgs/me.png" />
+        <div id="description">
+          I'm a creative developer, currently studying computer science at UCLA.
+          This past summer, I was a data engineering intern at
+          <a
+            href="https://www.peopledatalabs.com/"
+            target="_blank"
+            class="description_link"
+            >People Data Labs</a
+          >. Currently, I'm building at
+          <a
+            href="https://creativelabsucla.com/"
+            target="_blank"
+            class="description_link"
+            >Creative Labs</a
+          >
+          and leading at
+          <a
+            href="https://upe.seas.ucla.edu/"
+            target="_blank"
+            class="description_link"
+            >UCLA Upsilon Pi Epsilon</a
+          >. Next summer, I'll be joining
+          <a
+            href="https://www.squarespace.com/"
+            target="_blank"
+            class="description_link"
+            >Squarespace</a
+          >
+          as a software engineer intern (frontend).
+        </div>
+      </div>
+
+      <div id="flex_2">
+        <span id="work_title">Work</span>
+        <ul>
+          <li>
+            <a
+              href="https://apollo-musicalartists.herokuapp.com/"
+              target="_blank"
+            >
+              <span> apollo: the relationship between musical artists </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://june-prelude.herokuapp.com/" target="_blank">
+              <span>june: prelude</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://yuen-soundxvisuals.herokuapp.com/" target="_blank">
+              <span>yuen: sound x visuals</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://creativelabsucla.com/" target="_blank">
+              <span>
+                agora: a foundation for project & club application portals
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://styvone.github.io/color/" target="_blank">
+              <span>color: visuals music-alizer</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="flex_3">
+        <span id="contact_title">Contact</span>
+        <div id="contact_icons_div">
+          <a href="mailto:stevenla@g.ucla.edu" target="_blank">
+            <img class="hvr-grow" src="imgs/mail.png" />
+          </a>
+          <a href="https://www.linkedin.com/in/stevenla14/" target="_blank">
+            <img class="hvr-grow" src="imgs/linkedin.png" />
+          </a>
+          <a href="https://github.com/styvone" target="_blank">
+            <img class="hvr-grow" src="imgs/github.png" />
+          </a>
+        </div>
+      </div>
+
+      <div id="push_about"></div>
+    </div>
+
+    <div id="bottom_header"></div>
+
+    <script>
+      setTimeout(() => {
+        document.getElementById("arrow").style.display = "block";
+      }, 4000);
+    </script>
+  </body>
 </html>
