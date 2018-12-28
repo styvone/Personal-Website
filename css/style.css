@@ -11,6 +11,17 @@ body {
   font-family: "Crimson Text", serif;
 }
 
+#landing_img_div {
+  position: absolute;
+  right: 13%;
+  top: 10vmin;
+}
+
+#landing_img_div img {
+  height: 80vmin;
+  width: 40vmin;
+}
+
 #arrow {
   display: none;
   position: absolute;
@@ -77,8 +88,8 @@ body {
 }
 
 #flex_1 img {
-  height: 55vmin;
-  width: 55vmin;
+  height: 60vmin;
+  width: 30vmin;
   margin: 15vmin 1.5vmin 15vmin 1vmin;
 }
 
@@ -187,6 +198,14 @@ a:hover {
 
 @media (max-width: 1024px) and (max-height: 1366px) {
   #flex_1 img {
+    display: none;
+  }
+
+  #landing_img_div img {
+    display: none;
+  }
+
+  #landing_img_div {
     display: none;
   }
 
